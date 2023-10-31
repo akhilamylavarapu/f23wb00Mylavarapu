@@ -4,3 +4,8 @@
 
 
 [Link to my live server](https://f23wb00mylavarapu.onrender.com)
+
+Class Name: Jackets <br>
+jacketNames: String <br>
+jacketSize: number <br>
+jacketCost: number <br>
