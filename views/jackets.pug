@@ -10,7 +10,7 @@ block content
           div(class="col-sm-2", onclick = `buy(${i})`, style = 'cursor: pointer;', id=`jackets-${i}`) 
             p JacketName: #{results[i].jacketNames}
             p JacketCost: $#{results[i].jacketCost}
-            p JacketName: #{results[i].jacketSize}
+            p JacketSize: #{results[i].jacketSize}
           
           script.
             document.getElementById(`jackets-${i}`).addEventListener('click', function() {
