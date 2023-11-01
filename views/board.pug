@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+
+  if query
+    b Rows: #{query.rows}
+    br
+    b Cols: #{query.cols}
+  else 
+    p Query parameters are passed
