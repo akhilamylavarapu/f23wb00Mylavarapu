@@ -11,9 +11,9 @@ block content
 
   - if (!Number.isInteger(rows) || !Number.isInteger(cols))
     p Rows and Cols must be numbers not decimal.
-  - else if (rows < 1 || rows > 10)
+  - if (rows < 1 || rows > 10)
     p Rows need to be in the range of 1 to 10.
-  - else if (cols < 1 || cols > 10)
+  - if (cols < 1 || cols > 10)
     p Cols need to be in the range of 1 to 10.
   - else
     table#outer
