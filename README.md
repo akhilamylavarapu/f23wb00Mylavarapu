@@ -8,4 +8,4 @@
 Class Name: Jackets <br>
 jacketNames: String <br>
 jacketSize: number <br>
-jacketCost: number <br>
+noOfJackets: number <br>

@@ -2,4 +2,12 @@ extends layout
 
 block content
   h1= title
-  
+
+  div(class="container-fluid")
+    div(class="row")
+      - let results = [{jacketNames: "Puffer Jacket", jacketSize: "Small", jacketCost: 59}, {jacketNames: "Denim Jacket", jacketSize: "Medium", jacketCost: 75}, {jacketNames: "Leather Jacket", jacketSize: "Small", jacketCost: 159}]; 
+        each result in results
+         div(class="col-sm-2")
+          p JacketName: #{result.jacketNames}
+          p JacketCost: $#{result.jacketCost}
+          p JacketName: #{result.jacketSize}
